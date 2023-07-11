@@ -278,7 +278,7 @@ p{
     padding: 100px;
     background-color: antiquewhite;
     text-align: center;
-    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-image: url('./images/Rectangle 9.png');
 }
 
 .latest-deals p{
