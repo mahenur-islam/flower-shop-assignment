@@ -1,0 +1,312 @@
+ /* Import Font from google-font */
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: rgb(74, 74, 74);
+}
+
+.container{
+    margin: 100px;
+    width: 90%;
+}
+
+/* Header Part Styles */
+
+.header-area{
+    padding: 30px 30px 0 50px;
+    background-color: #eddde0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 8px #888888;
+}
+
+.header-text{
+    width: 500px;
+}
+
+.header-text> h1 {
+    font-size: 3rem;
+    width: 400px;
+    margin-bottom: 2rem;
+
+}
+
+.header-text > p{
+    color: gray;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.btn-primary{
+    padding: 1rem 2rem;
+    background:rgb(245, 29, 133);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.header-img{
+    height: 600px;
+    width: 500px;
+}
+
+/* Header part style complete  */
+
+/* Features Part Styles  */
+
+.feature-area{
+    margin-top: 10rem;
+    padding: 10px 100px;
+}
+
+.feature-text{
+    margin: 0px 250px;
+    width: 550px;
+
+}
+
+.feature-text h1{
+    text-align: center;
+}
+
+.feature-text p{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+
+.feature-cards{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 2rem;
+}
+
+.feature-cards .card {
+    width: 400px;
+    height: 500px;
+    padding: 90px 30px 0px 30px;
+    text-align: center;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 200px;
+}
+.feature-cards .card:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 213, 244);
+
+}
+
+.feature-cards .card:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 214, 171);
+    
+
+}
+.feature-cards .card:nth-child(3) {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 202, 249);
+
+}
+
+.feature-cards .card img{
+    width: 100%;
+    height: 100%;
+}
+.feature-cards .card a{
+    background-color:white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* Customers Review style */
+.customer-review{
+    margin-top: 200px;
+    padding: 10px 80px;
+}
+
+.customer-review h1{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.customer-review-cards{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 10px;
+}
+
+.customer-review-cards .customer h3{
+    margin-bottom: 0.5rem;
+}
+
+.customer{
+    box-shadow: 0px 5px 8px #f49999;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.customer img{
+    padding: 5px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+/* Service area style  */
+.service-area{
+    width: 90%;
+    background: #f0eded;
+    padding: 100px 100px;
+    gap: 5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 5rem;
+    margin: 0px 100px;
+}
+
+.service-area i{
+    text-align: center;
+}
+
+/* Hot Deals Style */
+.hot-deals{
+    width: 100%;
+    margin-top: 10rem;
+    background: #f5e9e9;
+    padding: 80px 60px 40px 60px;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deals .hot-deals-text{
+    padding-left: 100px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.hot-deals .hot-deals-text h1{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.hot-deals .hot-deals-text p{
+    margin-bottom: 2rem;
+}
+
+
+.hot-deals .hot-deals-image{
+    width: 50%;
+    padding-left: 60px;
+}
+
+/* Instagram Style  */
+
+.instagram{
+    width: 90%;
+    margin-left:100px;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram .instagram-text{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.instagram .instagram-text h1{
+    margin-bottom: 30px;
+}
+
+.instagram .instagram-images{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.instagram .instagram-images img{
+    width: 250px;
+}
+
+
+/* Latest Deals Style */
+.latest-deals{
+    border-radius: 10px;
+    width: 80%;
+    margin: 100px 200px;
+    padding: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+}
+
+.latest-deals p{
+    margin-top: 10px;
+}
+.latest-deals .input-field > input {
+    margin-top: 50px;
+    padding: 1rem 30rem 1rem 1rem;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+/* Footer Style  */
+.footer-area{
+    width: 100%;
+    padding:80px 100px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer-head{
+    padding: 20px 380px;
+    text-align: center;
+}
+
+.footer-head > p{
+    margin-top: 10px;
+    color: #adabab;
+
+}
